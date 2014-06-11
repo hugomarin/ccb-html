@@ -1,0 +1,53 @@
+{% block content %}
+
+{% include "components/breadcrumb" %}
+
+<section class="relevant-holder">
+	<div class="row">
+		<div class="large-12 columns">
+			{% include "relevant/relevant-1" %}
+		</div>
+	</div>
+</section>
+
+<section class="services-holder">
+	<div class="row">
+		<div class="large-4 columns">
+			{% include "services/tools-mini" %}
+		</div>
+		<div class="large-4 columns">
+			{% include "services/training-mini" %}
+		</div>
+		<div class="large-4 columns">
+			{% include "services/research-mini" %}
+		</div>
+	</div>
+</section>
+
+<section class="news-holder">
+	<div class="panel">
+		<div class="row collapse">
+			<div class="large-8 medium-12 columns">
+				<header class="section-title">Noticias relacionadas</header>
+				{% include "news/relate-news"%}
+			</div>
+			<div class="large-4 medium-12 columns">
+				<header class="section-title">Eventos relacionadas</header>
+				{% include "events/relate-events"%}
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="faq-and-glossary-holder">
+	<div class="row">
+		<div class="large-8 columns">
+			{% include "components/accordion"%}
+		</div>
+		<div class="large-4 columns">
+			{% include "components/glossary"%}
+		</div>
+	</div>
+</section>
+
+{% endblock %}

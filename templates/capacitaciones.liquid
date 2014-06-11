@@ -1,0 +1,65 @@
+{% block content %}
+
+{% include "components/breadcrumb" %}
+
+<section class="training-resume-holder">
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>Capacitaciones</h2>
+		</div>
+		<div class="large-7 columns">
+			<div class="row">
+				<div class="large-4 small-6 columns">
+					{% include "services/talks-mini"%}
+				</div>
+				<div class="large-4 small-6 columns">
+					{% include "services/seminars-mini"%}
+				</div>
+				<div class="large-4 small-6 end columns">
+					{% include "services/diplomaed-mini"%}
+				</div>
+			</div>
+		</div>
+		<div class="large-5 columns">
+			<div class="row">
+				<div class="large-12 columns">
+					{% include "services/virtual-training-mini"%}
+				</div>
+				<div class="large-12 columns">
+					{% include "services/tutor-mini"%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="training-filter-holder">
+	<div class="row">
+		<div class="large-3 columns">
+			{% include "aside-content/aside-filter" %}
+		</div>
+		<div class="large-9 columns">
+			<div class="row">
+				{% include "aside-content/top-filter" %}
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					{% include "services/training-pane" %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="faq-and-glossary-holder">
+	<div class="row">
+		<div class="large-8 columns">
+			{% include "components/accordion"%}
+		</div>
+		<div class="large-4 columns">
+			{% include "components/glossary"%}
+		</div>
+	</div>
+</section>
+
+{% endblock %}

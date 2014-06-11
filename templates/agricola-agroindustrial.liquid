@@ -1,0 +1,26 @@
+{% block content %}
+
+{% include "components/breadcrumb" %}
+
+<div class="row">
+	<div class="large-3 columns hide-for-small">
+		<aside>
+			{% include "components/side-nav" %}
+			{% include "services/side-tools" %}
+		</aside>
+	</div>
+
+	<div class="large-9 columns">
+		<section class="content">
+			{% include "content/agricola" %}
+		</section>
+	</div>
+
+	<div class="large-12 columns">
+		<section class="aside-interest-holder">
+			{% include "aside-content/aside-interest"%}
+		</section>
+	</div>
+</div>
+
+{% endblock %}

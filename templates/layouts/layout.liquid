@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Foundation 5</title>
+
+	<meta name="author" content="" />
+	<meta name="copyright" content="" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta property="og:title" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:type" content="" />
+	<meta property="fb:app_id" content="" />
+
+	<link rel="Shortcut Icon" type="image/x-icon" href="" />
+	<link rel="apple-touch-icon" href="" />
+	<link rel="apple-touch-icon" sizes="72x72" href="" />
+	<link rel="apple-touch-icon" sizes="114x114" href="" />
+
+	{{ "app.css" | asset_url | stylesheet_tag }}
+	<script src="{{ "modernizr.js" | asset_url }}"></script>
+	<style>
+		figure {
+			margin: 0;
+		}
+
+		.nav-bar ul {
+			margin: 2em 0;
+			float:left;
+		}
+
+		.nav-bar li {
+			/* display: block; */
+			float: left;
+			list-style: none;
+			background: #F0F4F5;
+			width: 14.27%;
+			padding: 0 5px;
+			border-right: 1px solid black;
+			height: 74px;
+		}
+
+		.panel {
+			background: #F0F4F5;
+			border: none;
+			float:left;
+			width:100%;
+		}
+
+		.header-holder {
+			background: rgb(235, 232, 232);
+		}
+
+		footer.footer-holder {
+			background: rgb(235, 232, 232);
+		}
+		div.copyright {
+			background: rgb(201, 200, 200);
+		}
+
+		header {
+			font-weight: bold;
+			margin-bottom: 1em;
+			font-size: 1.1em;
+		}
+
+		.event-item {
+			margin: 0;
+		}
+
+		.event-item li {
+			list-style: none;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="off-canvas-wrap" data-offcanvas>
+		<div class="inner-wrap">
+			{% include "header/header-holder" %}
+			{% include "off-canvas-menu/tab-bar" %}
+			{% include "off-canvas-menu/left-off-canvas-menu" %}
+
+			<section class="main-section">
+				<div class="row">
+					<div class="large-12 columns">
+						{% block content %}{% endblock %}
+					</div>
+				</div>
+				{% include "footer/footer-holder" %}
+			</section>
+
+			<a class="exit-off-canvas"></a>
+		</div>
+	</div>
+	{% include "scripts" %}
+</body>
+</html>

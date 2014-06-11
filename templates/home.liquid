@@ -1,0 +1,22 @@
+{% block content %}
+
+<section class="relevant-holder">
+	{% include "relevant/relevant-holder-mini" %}
+</section>
+
+<section class="news-holder">
+	{% include "news/news-holder" %}
+</section>
+
+<section class="services-news-holder">
+	<div class="row">
+		<div class="large-8 columns">
+			{% include "services/services-holder" %}
+		</div>
+		<div class="large-4 columns">
+			{% include "events/events-mini" %}
+		</div>
+	</div>
+</section>
+
+{% endblock %}
