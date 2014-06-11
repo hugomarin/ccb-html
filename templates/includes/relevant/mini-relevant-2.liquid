@@ -1,31 +1,31 @@
 <article class="relevant-2">
 	<div class="panel">
-	<header class="title">Fortalezca<br/>su empresa</header>
+	<header class="title">{{ global.relevant-title-2 }}</header>
 	</div>
 	<div class="panel hide-for-small-only">
-		<div class="description"><strong>Si ya tiene una emprese identifique su necesidad o su sector para crecer</strong></div>
+		<div class="description"><strong>{{ global.relevant-description-2 }}</strong></div>
 		<div class="relevant-offer">
 			<div class="row collapse">
 				<div class="large-6 columns">
 					<div class=""><strong>Por necesidad:</strong></div>
 					<ul>
-						<li><a href="" title="">Ventas y mercadeo</a></li>
-						<li><a href="" title="">Financiero</a></li>
-						<li><a href="" title="">Producción y calidad</a></li>
+						{% for item in global.relevant-2 limit:3 offset:2 %}
+							<li><a href="" title="">{{ item.item}}</a></li>
+						{% endfor %}
 					</ul>
 					<a href="" class="view-more" title="">Otras necesidades</a>
 				</div>
 				<div class="large-6 columns">
 					<div class=""><strong>Por sector:</strong></div>
 					<ul>
-						<li><a href="" title="">Agrícola</a></li>
-						<li><a href="" title="">Industrias creativas</a></li>
-						<li><a href="" title="">Clusters</a></li>
+						{% for item in global.relevant-2 limit:3 offset:3 %}
+							<li><a href="" title="">{{ item.item}}</a></li>
+						{% endfor %}
 					</ul>
 					<a href="" class="view-more" title="">Más sectores</a>
 				</div>
 			</div>
 		</div>
-		<div class="relevant-cta"><a href="" class="button right" title="">Realizar diagnóstico</a></div>
+		<div class="relevant-cta"><a href="" class="button right" title="">{{ global.relevant-action-2 }}</a></div>
 	</div>
 </article>

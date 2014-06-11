@@ -4,12 +4,13 @@
 			<figure>{{ "435x300" | placeholder:'f1f1f1' | image_tag:'Placeholder' }}</figure>
 		</div>
 		<div class="large-6 columns">
-			<header><a href="" title="">Foro Bogotá siempre gana con el sistema de transporte</a></header>
-			<div class="excerpt hide-for-small-only">
-				<p>Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)</p>
-			</div>
-			<a href="" class="link" title="">Inscríbase aquí</a>
-
+			{% for item in global.news limit:1 %}
+				<header><a href="" title="">{{ item.title}}</a></header>
+				<div class="excerpt hide-for-small-only">
+					<p>{{ item.description}}</p>
+				</div>
+			{% endfor %}
+			<a href="" class="link" title="">Más información</a>
 		</div>
 	</div>
 </article>

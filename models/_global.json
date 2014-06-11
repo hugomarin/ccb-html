@@ -2,11 +2,126 @@
     "version": "5.2.2",
 
     "eyebrow": [{
-        "work": "Universidad Nacional de Colombia",
-        "institution": "II Concurso Nacional de Video Danza",
-        "award": "Mención de Honor",
-        "year": "2003",
-        "city": "Bogotá",
-        "country": "Colombia"
+        "name": "La Cámara (CCB)"
+    }, {
+        "name": "Círculo de afiliados"
+    }, {
+        "name": "Sala de prensa"
+    }, {
+        "name": "Sedes"
+    }, {
+        "name": "trámites y consultas"
+    }],
+
+
+    "top-bar": [{
+        "name": "Cree su empresa"
+    }, {
+        "name": "Fortalezca su empresa"
+    }, {
+        "name": "Inscripciones y renovaciones"
+    }, {
+        "name": "Solución de conflictos"
+    }, {
+        "name": "Investigaciones Bogotá y región"
+    }, {
+        "name": "Eventos y capacitaciones"
+    }],
+
+    "relevant-title-1": "Cree su empresa",
+    "relevant-description-1": "La Cámara le ayuda a realizar su sueño",
+    "relevant-action-1": "¿Cómo empezar?",
+
+    "relevant-1": [{
+        "item": "Planeación"
+    }, {
+        "item": "Nombres (Homonimia)"
+    }, {
+        "item": "Formalización"
+    }, {
+        "item": "Puesta en marcha"
+    }],
+
+    "relevant-title-2": "Fortalezca su empresa",
+    "relevant-description-2": "Si ya tiene una emprese identifique su necesidad o su sector para crecer",
+    "relevant-action-2": "Realizar diagnóstico",
+
+    "relevant-2": [{
+        "item": "Ventas y mercadeo"
+    }, {
+        "item": "Financiero"
+    }, {
+        "item": "Formalización"
+    }, {
+        "item": "Producción y calidad"
+    }, {
+        "item": "Agrícola"
+    }, {
+        "item": "Industrias creativas"
+    }, {
+        "item": "Clusters"
+    }],
+
+    "relevant-title-3": "Inscripciones y renovaciones",
+    "relevant-description-3": "Inscriba, obtenga su certificado o renueve",
+    "relevant-action-3": "Renovaciones",
+
+    "relevant-3": [{
+        "item": "Matrícula Mercantil (RUES)"
+    }, {
+        "item": "Regístro Único de proponentes (RUP)"
+    }, {
+        "item": "Fundaciones y Asociaciones (ESALES)"
+    }, {
+        "item": "Turismo (RNT)"
+    }, {
+        "item": "Estado de su trámite"
+    }],
+
+    "news": [{
+        "title": "Foro Bogotá siempre gana con el sistema de transporte",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Foro presente y futuro de la franquicia en Colombia",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Alianza público-privada para la formalización empresarial",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Feria de Jóvenes Empresarios de la CCB",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Simposio Internacional de Cine de Autor",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Conozca qué se dijo en el Debate con los candidatos a la presidencia",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Pronunciamiento de la Cámara de Comercio de Bogotá",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Debate con los candidatos a la Presidencia de la República",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Fortalecer los Clusters para ser más competitivos",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Conozca los beneficios de la Cámara de Comercio internacional en Colombia",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Davivienda, ganador del primer premio Valor",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }, {
+        "title": "Cámaras de comercio de América Latina firman acuerdo de entendimiento",
+        "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
+    }],
+
+    "affiliates": [{
+        "title": "Circulo de afiliados"
+    }, {
+    "description": "Acceda a servicios preferenciales y obtenga descuentos"
+    }, {
+        "action": "Afiliarse"
     }]
+
 }

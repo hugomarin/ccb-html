@@ -1,8 +1,6 @@
 <dl class="sub-nav">
 	<dt>inicio</dt>
-	<dd class=""><a href="#">La Cámara (CCB)</a></dd>
-	<dd><a href="#">Círculo de afiliados</a></dd>
-	<dd><a href="#">Sala de prensa</a></dd>
-	<dd><a href="#">Sedes</a></dd>
-	<dd><a href="#">trámites y consultas</a></dd>
+	{% for item in global.eyebrow %}
+		<dd class=""><a href="#">{{ item.name}}</a></dd>
+	{% endfor %}
 </dl>

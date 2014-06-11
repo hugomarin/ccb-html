@@ -1,11 +1,8 @@
 <aside class="other-news">
 	<ul>
-		<li><a href="" class="" title="">Conozca qué se dijo en el Debate con los candidatos a la Presidencia</a></li>
-		<li><a href="" class="" title="">Pronunciamiento de la Cámara de Comercio de Bogotá</a></li>
-		<li><a href="" class="" title="">título</a></li>
-		<li><a href="" class="" title="">título</a></li>
-		<li><a href="" class="" title="">título</a></li>
-		<li><a href="" class="" title="">título</a></li>
+		{% for item in global.news limit:7 offset:5 %}
+		<li><a href="" class="" title="">{{ item.title}}</a></li>
+		{% endfor %}
 	</ul>
 	<a href="" class="view-more" title="">Ver más noticias</a>
 </aside>

@@ -1,21 +1,20 @@
 <article class="relevant-1">
 	<div class="panel">
-	<header class="title">Cree<br/>su empresa</header>
+	<header class="title">{{ global.relevant-title-1 }}</header>
 	</div>
 	<div class="panel hide-for-small-only">
-		<div class="description"><strong>La Cámara le ayuda a realizar su sueño</strong></div>
+		<div class="description"><strong>{{ global.relevant-description-1 }}</strong></div>
 		<div class="relevant-offer">
 			<div class="row collapse">
 				<div class="large-12 columns">
 					<ul>
-						<li><a href="" title="">Planeación</a></li>
-						<li><a href="" title="">Nombres (Homonimia)</a></li>
-						<li><a href="" title="">Formalización</a></li>
-						<li><a href="" title="">Puesta en marcha</a></li>
+						{% for item in global.relevant-1 %}
+							<li><a href="" title="">{{ item.item}}</a></li>
+						{% endfor %}
 					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="relevant-cta"><a href="" class="button right" title="">¿Cómo empezar?</a></div>
+		<div class="relevant-cta"><a href="" class="button right" title="">{{ global.relevant-action-1 }}</a></div>
 	</div>
 </article>

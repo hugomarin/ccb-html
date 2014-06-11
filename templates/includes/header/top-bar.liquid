@@ -1,27 +1,14 @@
 <section class="navigation">
 	<nav class="nav-bar" >
 		<ul class="">
+
 			<li class="">
 				<a href="#">Logo</a>
 			</li>
-			<li class="">
-				<a href="#">Cree su empresa</a>
-			</li>
-			<li class="">
-				<a href="#">Fortalezca su empresa</a>
-			</li>
-			<li class="">
-				<a href="#">Inscripciones y renovaciones</a>
-			</li>
-			<li class="">
-				<a href="#">Solución de conflictos</a>
-			</li>
-			<li class="">
-				<a href="#">Investigaciones Bogotá y región</a>
-			</li>
-			<li class="">
-				<a href="#">Eventos y capacitaciones</a>
-			</li>
+			{% for item in global.top-bar %}
+				<li class=""><a href="#">{{ item.name}}</a></li>
+			{% endfor %}
+
 		</ul>
 	</nav>
 </section>
