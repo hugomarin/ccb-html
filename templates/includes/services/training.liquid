@@ -2,11 +2,9 @@
 	<div class="panel">
 	<header>Capacitaciones</header>
 	<p>
-		<a href="" class="" title="">Cursos</a>,
-		<a href="" class="" title="">charlas</a>,
-		<a href="" class="" title="">seminarios</a>,
-		<a href="" class="" title="">diplomados</a> y
-		<a href="" class="" title="">Programa Tutor</a>
+		{% for item in global.training-type %}
+		<a href="" class="" title="">{{ item.type }}</a>
+		{% endfor %}
 	</p>
 	</div>
 </article>

@@ -1,7 +1,11 @@
 <article class="research">
 	<div class="panel">
-	<header>Investigación Bogotá y región</header>
-	<p class="description">Cifras, estudios, encuestas y más.</p>
-	<a href="" class="view-more" title="">Saber más</a>
+		{% for item in global.research %}
+			<header>{{ item.title }}</header>
+			<p class="description">{{ item.description }}</p>
+			<a href="" class="view-more" title="">Saber más</a>
+		{% endfor %}
 	</div>
 </article>
+
+

@@ -1,7 +1,11 @@
 <article class="conflicts">
 	<div class="panel">
-	<header>Solución de conflictos</header>
-	<p class="description">Nuestro centro de Arbitraje y Conciliación (CAC)</p>
-	<a href="" class="view-more" title="">Saber más</a>
+		{% for item in global.conflicts %}
+			<header>{{ item.title }}</header>
+			<p class="description">{{ item.description }}</p>
+			<a href="" class="view-more" title="">Saber más</a>
+		{% endfor %}
 	</div>
 </article>
+
+

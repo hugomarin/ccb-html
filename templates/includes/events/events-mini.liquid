@@ -1,68 +1,54 @@
-<div>Próximos eventos</div>
-<dl class="tabs" data-tab>
-	<dd class="tab-title active"><a href="#events-mini-1">Hoy</a></dd>
-	<dd class="tab-title"><a href="#events-mini-2">Mañana</a></dd>
-	<dd class="tab-title"><a href="">Todos</a></dd>
-</dl>
-<div class="tabs-content">
-	<div class="content active" id="events-mini-1">
-		<ul class="event-item">
-			<li>
-				<div class="row">
-					<div class="large-2 columns">
-						<span class="hour">8:00</span>
-						<span class="am-pm">AM</span>
-					</div>
-					<div class="large-10 columns">
-						<a href="" class="" title="">Foro "Bogotá siempre gana con el Sistema integrado de Transporte "</a>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="row">
-					<div class="large-2 columns">
-						<span class="hour">8:00</span>
-						<span class="am-pm">AM</span>
-					</div>
-					<div class="large-10 columns">
-						<a href="" class="" title="">Foro "Bogotá siempre gana con el Sistema integrado de Transporte "</a>
-					</div>
-				</div>
-			</li>
+<div class="row">
+	<div class="large-12 columns"><header>Próximos eventos <small>Mayo 15, 2014</small></header></div>
 
-		</ul>
+	<div class="large-12 columns">
+		<dl class="tabs" data-tab>
+			<dd class="tab-title active"><a href="#events-mini-1">Hoy</a></dd>
+			<dd class="tab-title"><a href="#events-mini-2">Mañana</a></dd>
+			<dd class="tab-title"><a href="">Todos</a></dd>
+		</dl>
+		<div class="tabs-content">
+			<div class="content active" id="events-mini-1">
+				<ul class="event-item">
+					{% for item in global.events limit:4 %}
+					<li>
+						<div class="row">
+							<div class="large-2 columns">
+								<span class="hour">{{ item.hour }}</span>
+								<span class="am-pm">{{ item.am-pm }}</span>
+							</div>
+							<div class="large-10 columns">
+								<a href="" class="" title="">{{ item.title }}</a>
+							</div>
+						</div>
+					</li>
+					{% endfor %}
+
+				</ul>
+			</div>
+
+			<div class="content" id="events-mini-2">
+				<ul class="event-item">
+					{% for item in global.events limit:4 offset:4 %}
+					<li>
+						<div class="row">
+							<div class="large-2 columns">
+								<span class="hour">{{ item.hour }}</span>
+								<span class="am-pm">{{ item.am-pm }}</span>
+							</div>
+							<div class="large-10 columns">
+								<a href="" class="" title="">{{ item.title }}</a>
+							</div>
+						</div>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div class="text-right">
+			<a href="" class="view-more" title="">Otros (3) eventos hoy</a>
+		</div>
 	</div>
-
-	<div class="content" id="events-mini-2">
-		<ul class="event-item">
-			<li>
-				<div class="row">
-					<div class="large-2 columns">
-						<span class="hour">9:00</span>
-						<span class="am-pm">AM</span>
-					</div>
-					<div class="large-10 columns">
-						<a href="" class="" title="">Foro "Bogotá siempre gana con el Sistema integrado de Transporte "</a>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="row">
-					<div class="large-2 columns">
-						<span class="hour">9:00</span>
-						<span class="am-pm">AM</span>
-					</div>
-					<div class="large-10 columns">
-						<a href="" class="" title="">Foro "Bogotá siempre gana con el Sistema integrado de Transporte "</a>
-					</div>
-				</div>
-			</li>
-
-		</ul>
-	</div>
-</div>
-<div class="text-right">
-<a href="" class="view-more" title="">Otros (3) eventos hoy</a>
 </div>
 
 
