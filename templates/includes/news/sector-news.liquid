@@ -1,17 +1,13 @@
 <aside class="sector-news">
-	<article class="">
-		<header>Emprendimiento</header>
-		<p><a href="" class="" title="">Froin mollis nisl ac enim pretium, ac rutrum lectus faucibus.</a></p>
-	</article>
-	<article class="">
-		<header>Productos</header>
-		<p><a href="" class="" title="">Froin mollis nisl ac enim pretium, ac rutrum lectus faucibus.</a></p>
-	</article>
-	<article class="">
-		<header>Indicadores</header>
-		<p><a href="" class="" title="">Froin mollis nisl ac enim pretium, ac rutrum lectus faucibus.</a></p>
-	</article>
+	<header>Emprendimiento</header>
+	{% for item in global.news limit:5 offset:1 %}
+		<article class="sector-news-item">
+		<header><a href="" title="">{{ item.title}}</a></header>
+		</article>
+	{% endfor %}
 	<div class="text-right">
 		<a href="" class="view-more" title="">Ver más noticias</a>
 	</div>
 </aside>
+
+

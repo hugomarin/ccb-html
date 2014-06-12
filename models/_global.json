@@ -1,6 +1,5 @@
 {
     "version": "5.2.2",
-
     "eyebrow": [{
         "name": "La Cámara (CCB)"
     }, {
@@ -12,8 +11,6 @@
     }, {
         "name": "trámites y consultas"
     }],
-
-
     "top-bar": [{
         "name": "Cree su empresa"
     }, {
@@ -27,7 +24,6 @@
     }, {
         "name": "Eventos y capacitaciones"
     }],
-
     "copyright": [{
         "name": "Política de privacidad"
     }, {
@@ -35,11 +31,9 @@
     }, {
         "name": "Reglas en redes sociales"
     }],
-
     "relevant-title-1": "Cree su empresa",
     "relevant-description-1": "La Cámara le ayuda a realizar su sueño",
     "relevant-action-1": "¿Cómo empezar?",
-
     "relevant-1": [{
         "item": "Planeación"
     }, {
@@ -49,11 +43,9 @@
     }, {
         "item": "Puesta en marcha"
     }],
-
     "relevant-title-2": "Fortalezca su empresa",
     "relevant-description-2": "Si ya tiene una emprese identifique su necesidad o su sector para crecer",
     "relevant-action-2": "Realizar diagnóstico",
-
     "relevant-2": [{
         "item": "Ventas y mercadeo"
     }, {
@@ -69,11 +61,9 @@
     }, {
         "item": "Clusters"
     }],
-
     "relevant-title-3": "Inscripciones y renovaciones",
     "relevant-description-3": "Inscriba, obtenga su certificado o renueve",
     "relevant-action-3": "Renovaciones",
-
     "relevant-3": [{
         "item": "Matrícula Mercantil (RUES)"
     }, {
@@ -85,7 +75,6 @@
     }, {
         "item": "Estado de su trámite"
     }],
-
     "news": [{
         "title": "Foro Bogotá siempre gana con el sistema de transporte",
         "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
@@ -123,56 +112,88 @@
         "title": "Cámaras de comercio de América Latina firman acuerdo de entendimiento",
         "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)"
     }],
-
-
     "events": [{
         "title": "Foro Bogotá siempre gana con el sistema de transporte",
         "description": "Conozca de la mano de los expertos en movilidad y transporte, el estado de la implementación del Sistema Integrado de Transporte Público de Bogotá (SITP)",
-        "hour": "8:00",
-        "am-pm": "am"
+        "hour": "800",
+        "am-pm": "am",
+        "month": "FEB",
+        "day": "15"
     }, {
         "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         "description": " Donec vehicula erat vitae sem mattis, eget mattis nulla posuere. Quisque ullamcorper, ante non tincidunt molestie, mi orci viverra nibh, nec faucibus lorem risus eget lorem. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut. Nullam cursus tincidunt arcu at condimentum. In a sem fermentum, egestas lacus vitae, lacinia dui. ",
-        "hour": "8:30",
-        "am-pm": "am"
+        "hour": "830",
+        "am-pm": "am",
+        "month": "FEB",
+        "day": "15"
     }, {
         "title": "Nunc pulvinar leo sit amet augue lobortis pretium. ",
         "description": " Donec vehicula erat vitae sem mattis, eget mattis nulla posuere. Quisque ullamcorper, ante non tincidunt molestie, mi orci viverra nibh, nec faucibus lorem risus eget lorem. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut. Nullam cursus tincidunt arcu at condimentum. In a sem fermentum, egestas lacus vitae, lacinia dui. ",
-        "hour": "10:30",
-        "am-pm": "am"
+        "hour": "1030",
+        "am-pm": "am",
+        "month": "FEB",
+        "day": "15"
     }, {
         "title": "Donec imperdiet nunc elit, in luctus nibh commodo a. ",
         "description": " Donec vehicula erat vitae sem mattis, eget mattis nulla posuere. Quisque ullamcorper, ante non tincidunt molestie, mi orci viverra nibh, nec faucibus lorem risus eget lorem. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut. Nullam cursus tincidunt arcu at condimentum. In a sem fermentum, egestas lacus vitae, lacinia dui. ",
-        "hour": "5:30",
-        "am-pm": "pm"
+        "hour": "530",
+        "am-pm": "pm",
+        "month": "FEB",
+        "day": "15"
     }, {
         "title": "Quisque imperdiet varius lacus a tempus. ",
         "description": " Donec vehicula erat vitae sem mattis, eget mattis nulla posuere. Quisque ullamcorper, ante non tincidunt molestie, mi orci viverra nibh, nec faucibus lorem risus eget lorem. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut. Nullam cursus tincidunt arcu at condimentum. In a sem fermentum, egestas lacus vitae, lacinia dui. ",
-        "hour": "8:30",
-        "am-pm": "am"
+        "hour": "830",
+        "am-pm": "am",
+        "month": "FEB",
+        "day": "15"
     }, {
         "title": "Duis tempor eros sem, vel interdum eros elementum vitae.",
         "description": " Donec vehicula erat vitae sem mattis, eget mattis nulla posuere. Quisque ullamcorper, ante non tincidunt molestie, mi orci viverra nibh, nec faucibus lorem risus eget lorem. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut. Nullam cursus tincidunt arcu at condimentum. In a sem fermentum, egestas lacus vitae, lacinia dui. ",
-        "hour": "9:30",
-        "am-pm": "am"
+        "hour": "930",
+        "am-pm": "am",
+        "month": "FEB",
+        "day": "15"
     }, {
         "title": "Aenean et velit eget sem iaculis ornare.",
         "description": " Donec vehicula erat vitae sem mattis, eget mattis nulla posuere. Quisque ullamcorper, ante non tincidunt molestie, mi orci viverra nibh, nec faucibus lorem risus eget lorem. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut. Nullam cursus tincidunt arcu at condimentum. In a sem fermentum, egestas lacus vitae, lacinia dui. ",
-        "hour": "10:00",
-        "am-pm": "am"
+        "hour": "1000",
+        "am-pm": "am",
+        "month": "FEB",
+        "day": "15"
     }, {
         "title": "Vivamus augue est, mattis nec erat sed, pellentesque blandit sem. ",
         "description": " Donec vehicula erat vitae sem mattis, eget mattis nulla posuere. Quisque ullamcorper, ante non tincidunt molestie, mi orci viverra nibh, nec faucibus lorem risus eget lorem. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut. Nullam cursus tincidunt arcu at condimentum. In a sem fermentum, egestas lacus vitae, lacinia dui. ",
-        "hour": "2:30",
-        "am-pm": "pm"
+        "hour": "230",
+        "am-pm": "pm",
+        "month": "FEB",
+        "day": "15"
     }],
-
+    "faq": [{
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula erat vitae sem mattis, eget mattis nulla posuere. ",
+        "description": "Quisque ullamcorper, ante non tincidunt molestie, mi orci viverra nibh, nec faucibus lorem risus eget lorem. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut. Nullam cursus tincidunt arcu at condimentum. In a sem fermentum, egestas lacus vitae, lacinia dui. Aliquam magna lorem, ultricies eget fringilla at, sagittis non massa. In bibendum ullamcorper congue. Donec risus sem, congue eget commodo ut, condimentum et ipsum. Praesent sed purus ut metus elementum consequat. Sed tempor urna at tellus luctus luctus."
+    }, {
+        "title": "Nunc pulvinar leo sit amet augue lobortis pretium.",
+        "description": "Duis tincidunt semper rhoncus. Ut velit neque, iaculis nec mauris ac, venenatis lobortis dolor. Donec non velit velit. Sed sit amet tincidunt ligula. Mauris metus lorem, aliquet quis auctor non, facilisis et sem. Praesent porttitor, augue vitae tempor pharetra, lacus neque consequat quam."
+    }, {
+        "title": "Quisque imperdiet varius lacus a tempus. Mauris posuere condimentum felis, non pellentesque felis.",
+        "description": "Duis tempor eros sem, vel interdum eros elementum vitae. Suspendisse iaculis libero a risus luctus luctus. Cras odio nunc, rhoncus a libero id, volutpat aliquam lorem. Cras laoreet nulla diam, eu scelerisque justo porta eget. Vivamus pretium, quam ac adipiscing porttitor, nunc urna euismod massa, vitae consequat mauris metus vitae urna. Nam pulvinar, velit ac molestie tristique, quam lacus vulputate mi, sit amet aliquam erat elit nec justo."
+    }],
+    "glossary": [{
+        "title": "Lorem ipsum dolor sit amet.",
+        "description": "Quisque ullamcorper, ante non tincidunt molestie. Nullam vestibulum posuere purus, sed sodales turpis pellentesque ut."
+    }, {
+        "title": "Nunc pulvinar.",
+        "description": "Duis tincidunt semper rhoncus. Ut velit neque."
+    }, {
+        "title": "Quisque imperdiet",
+        "description": "Vivamus pretium, quam ac adipiscing porttitor."
+    }],
     "affiliates": [{
         "title": "Circulo de afiliados",
         "description": "Acceda a servicios preferenciales y obtenga descuentos",
         "action": "Afiliarse"
     }],
-
     "training-type": [{
         "type": "Cursos"
     }, {
@@ -184,15 +205,12 @@
     }, {
         "type": "Programa Tutor"
     }],
-
     "conflicts": [{
         "title": "Solución de conflictos",
         "description": "Nuestro centro de Arbitraje y Conciliación (CAC)"
     }],
-
     "research": [{
         "title": "Investigación Bogotá y región",
         "description": "Cifras, estudios, encuestas y más."
     }]
-
 }
